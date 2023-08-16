@@ -1,1 +1,3 @@
-print("Hello World!")
+#!/usr/bin/env Rscript
+
+print("Hello World!")  
