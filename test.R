@@ -1,3 +1,6 @@
 #!/usr/bin/env Rscript
 
-print("Hello World!")  
+data(trees)
+head(trees)
+mod <- lm(Girth  ~ Height , data = trees)
+summary(mod)
