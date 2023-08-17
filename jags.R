@@ -1,24 +1,5 @@
-########################################################################
-#####################################################################
-#####################################################################
-## Name: Find two change points for PA+ binary long model with long format data
-## Author: Jiayuan Shi
-## Date: 
-##
-## Description:  
+#!/usr/bin/env Rscript
 
-##			  
-##
-## Components:
-## 		- 
-##		  
-## Input:  Data-PA-cohort.csv
-##		
-## Output:
-##		- 
-## Notes:
-## 	
-## 		    
 dirg <- "C:/UCHealth/RA/Project/EPIC-CF/Code/jags/"
 
 library(mvtnorm)
