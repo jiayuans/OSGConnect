@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-library(R2jags)
+library(R2jags) 
  
 # JAGS
 set.seed(42) # Set a random seed for reproducibility of the simulation

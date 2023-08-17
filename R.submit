@@ -1,6 +1,6 @@
 +SingularityImage = "osdf://osgconnect/public/osg/OSGP/lib.sif"
 executable        = SLR.R
-# arguments 
+# arguments
 
 log    = R.log.$(Cluster).$(Process)
 error  = R.err.$(Cluster).$(Process)
