@@ -1,4 +1,4 @@
-+SingularityImage = "/cvmfs/singularity.opensciencegrid.org/opensciencegrid/osgvo-r:3.5.0"
++SingularityImage = "osdf://osgconnect/public/osg/OSGP/lib.sif"
 executable        = jags.R
 # arguments 
 
