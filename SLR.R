@@ -51,7 +51,3 @@ fit_lm1
 # 2.5% and 97.5% quantiles: 95% credible interval
 # n.eff: effective sample size
 # Rhat: measure of how well the Markov chains have mixed and should ideally have a value very close to 1
-
-traceplot(fit_lm1, mfrow = c(2, 2), ask = F)
-
-plot(fit_lm1)
