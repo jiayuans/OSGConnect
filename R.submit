@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 +SingularityImage = "osdf:///ospool/protected/jiayuan.shi/lib.sif"
 executable        = SLR.R
 # arguments
@@ -13,3 +14,20 @@ request_memory = 1GB
 request_disk   = 1GB
 
 queue 1
+=======
++SingularityImage = "osdf:///ospool/protected/jiayuan.shi/lib.sif"
+executable        = SLR.R
+# arguments
+
+log    = R.log.$(Cluster).$(Process)
+error  = R.err.$(Cluster).$(Process)
+output = R.out.$(Cluster).$(Process)
+
++JobDurationCategory = "Medium"
+
+request_cpus   = 1
+request_memory = 1GB
+request_disk   = 1GB
+
+queue 1
+>>>>>>> 8eedd55fa602a611a53c2a71b6c98815a4059a50

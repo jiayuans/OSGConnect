@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 Bootstrap: docker
 From: opensciencegrid/osgvo-r:3.5.0
 
 %post
     R -e "install.packages(c('cowsay','R2jags'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+=======
+Bootstrap: docker
+From: opensciencegrid/osgvo-r:3.5.0
+ 
+%post
+    R -e "install.packages('R2jags', dependencies=TRUE, repos='http://cran.rstudio.com/')" 
+>>>>>>> 8eedd55fa602a611a53c2a71b6c98815a4059a50
