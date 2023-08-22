@@ -1,7 +1,6 @@
 #!/usr/bin/env Rscript
 
 dirg <- "C:/UCHealth/RA/Project/EPIC-CF/Code/jags/"
-
 library(mvtnorm)
 library(rjags)
 library(R2jags)
