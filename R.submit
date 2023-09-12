@@ -1,4 +1,4 @@
-+SingularityImage = "osdf://ospool/protected/jiayuan.shi/lib.sif"
++SingularityImage = "osdf:///ospool/PROTECTED/jiayuan.shi/lib.sif"
 executable        = SLR.R
 # arguments
 
