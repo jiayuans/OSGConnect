@@ -1,6 +1,7 @@
 +SingularityImage = "osdf:///ospool/PROTECTED/jiayuan.shi/lib2.sif"
 executable        = SLR.R
 # arguments
+transfer_input_files = cortdata.csv
 
 log    = R.log.$(Cluster).$(Process)
 error  = R.err.$(Cluster).$(Process)
