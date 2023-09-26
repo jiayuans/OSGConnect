@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-
+library(rjags)
 library(coda)
 library(R2jags)
 
