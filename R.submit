@@ -1,4 +1,4 @@
-+SingularityImage = "osdf:///ospool/PROTECTED/jiayuan.shi/lib2.sif"
++SingularityImage = "osdf:///ospool/PROTECTED/jiayuan.shi/lib3.sif"
 executable        = jags.R
 # arguments
 # transfer_input_files = cortdata.csv
