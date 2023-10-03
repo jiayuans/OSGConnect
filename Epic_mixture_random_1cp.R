@@ -8,7 +8,6 @@ library(rjags)
 library(runjags)
 library(tidyverse)
 
-setwd("C:/Users/jiayu/OneDrive/Documents/OSGConnect/")
 dat0 <- read.csv(file="Data-PA-cohort.csv")
 set.seed(2256)
 dat<- dat0[dat0$ru < 0.2, -1] #subset of the data
