@@ -1,0 +1,14 @@
++SingularityImage = "osdf:///ospool/PROTECTED/jiayuan.shi/library.sif"
+executable        = LMM.R
+
+log    = R.log.$(Cluster).$(Process)
+error  = R.err.$(Cluster).$(Process)
+output = R.out.$(Cluster).$(Process)
+
++JobDurationCategory = "Medium"
+
+request_cpus   = 1
+request_memory = 1GB
+request_disk   = 1GB
+
+queue 1 

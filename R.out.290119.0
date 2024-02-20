@@ -1,0 +1,51 @@
+# A tibble: 6 × 5
+  SubjectId casecontrol matchpair Time  Cortisollevel
+      <int> <fct>           <int> <chr>         <dbl>
+1         1 Control            11 Time1          1.53
+2         1 Control            11 Time2          3.08
+3         1 Control            11 Time3         14.4 
+4         1 Control            11 Time4          9.62
+5         1 Control            11 Time5          7.73
+6         1 Control            11 Time6          5.07
+Generalized least squares fit by REML
+  Model: Cortisollevel ~ Time + casecontrol 
+  Data: cortdatalong 
+       AIC      BIC    logLik
+  1496.586 1582.154 -725.2932
+
+Correlation Structure: General
+ Formula: ~1 | SubjectId 
+ Parameter estimate(s):
+ Correlation: 
+  1     2     3     4     5    
+2 0.454                        
+3 0.417 0.528                  
+4 0.274 0.455 0.555            
+5 0.211 0.445 0.557 0.864      
+6 0.781 0.321 0.515 0.521 0.525
+
+Coefficients:
+                       Value Std.Error   t-value p-value
+(Intercept)         4.882958 0.6060441  8.057101  0.0000
+TimeTime1          -1.751834 0.3212777 -5.452709  0.0000
+TimeTime2           2.217899 0.5658433  3.919634  0.0001
+TimeTime3           8.327262 0.4780465 17.419355  0.0000
+TimeTime4           4.446057 0.4752316  9.355559  0.0000
+TimeTime5           2.652378 0.4730309  5.607199  0.0000
+casecontrolPatient  0.759077 0.7254011  1.046423  0.2962
+
+ Correlation: 
+                   (Intr) TimTm1 TimTm2 TimTm3 TimTm4 TimTm5
+TimeTime1          -0.265                                   
+TimeTime2          -0.467  0.457                            
+TimeTime3          -0.394  0.185  0.603                     
+TimeTime4          -0.392 -0.043  0.537  0.538              
+TimeTime5          -0.390 -0.148  0.528  0.538  0.858       
+casecontrolPatient -0.598  0.000  0.000  0.000  0.000  0.000
+
+Standardized residuals:
+       Min         Q1        Med         Q3        Max 
+-2.0526580 -0.5380855 -0.1877947  0.3423142  6.5639738 
+
+Residual standard error: 3.501195 
+Degrees of freedom: 312 total; 305 residual
