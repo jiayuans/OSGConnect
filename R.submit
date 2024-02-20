@@ -1,7 +1,5 @@
 +SingularityImage = "osdf:///ospool/PROTECTED/jiayuan.shi/lib3.sif"
-executable        = Simulation_mixture_random_1cp.R
-# arguments
-transfer_input_files = Data-PA-cohort.csv
+executable        = jags.R
 
 log    = R.log.$(Cluster).$(Process)
 error  = R.err.$(Cluster).$(Process)
