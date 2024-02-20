@@ -1,7 +1,7 @@
 Bootstrap: docker
-From: rccline/lme4verse:latest
+From: rocker/tidyverse:4.3
 
 %post
     apt -y update
     apt -y install jags
-    R -e "install.packages(c('ggplot2','lme4'), dependencies=TRUE, repos='http://cran.rstudio.com/')"
+    R -e "install.packages(c('rjags','coda','runjags'), dependencies=TRUE, repos='http://cran.rstudio.com/')"

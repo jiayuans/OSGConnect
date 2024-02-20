@@ -1,5 +1,5 @@
-+SingularityImage = "osdf:///ospool/PROTECTED/jiayuan.shi/library.sif"
-executable        = LMM.R
++SingularityImage = "osdf:///ospool/PROTECTED/jiayuan.shi/lib4.sif"
+executable        = jags.R
 
 log    = R.log.$(Cluster).$(Process)
 error  = R.err.$(Cluster).$(Process)
