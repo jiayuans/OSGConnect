@@ -135,3 +135,4 @@ for (r in 2:I){
 
 Sim.results=cbind(B1.mean,B2.mean,B3.mean,c0.mean,c1.mean,c2.mean,c3.mean,cp1.mean,cp2.mean,tau.mean,u.mean)
 Sim.results=Sim.results[-1,]
+round(colMeans(Sim.results),6)
