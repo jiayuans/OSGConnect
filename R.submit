@@ -1,4 +1,4 @@
-+SingularityImage = "osdf:///ospool/PROTECTED/jiayuan.shi/lib5.sif"
++SingularityImage = "osdf:///ospool/ap40/data/jiayuan.shi/lib.sif"
 executable        = jags.R
 
 log    = R.log.$(Cluster).$(Process)
