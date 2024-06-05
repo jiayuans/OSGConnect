@@ -1,3 +1,5 @@
+#!/usr/bin/env Rscript
+
 library(tidyverse)
 library(dplyr)
 library(Matrix)
@@ -131,7 +133,7 @@ simulate_and_fit <- function(num_simulations) {
   
 }
 
-num_sim <- 1
+num_sim <- 5000
 alpha <- 0.05
 FWER <- simulate_and_fit(num_sim)
 FWER
