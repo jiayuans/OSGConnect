@@ -1,0 +1,17 @@
++SingularityImage = "osdf:///ospool/PROTECTED/jiayuan.shi/lib.sif"
+executable        = Q4i.R
+
+# arguments
+transfer_input_files = fmri_phys_func.csv
+
+log    = R.log.$(Cluster).$(Process)
+error  = R.err.$(Cluster).$(Process)
+output = R.out.$(Cluster).$(Process)
+
++JobDurationCategory = "Medium"
+
+request_cpus   = 1
+request_memory = 1GB
+request_disk   = 1GB
+
+queue 1 
