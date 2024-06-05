@@ -1,4 +1,4 @@
-+SingularityImage = "osdf:///ospool/PROTECTED/jiayuan.shi/lib.sif"
++SingularityImage = "osdf:///ospool/ap40/data/jiayuan.shi/lib.sif"
 executable        = Q4i.R
 
 # arguments
