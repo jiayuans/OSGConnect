@@ -7,7 +7,7 @@ library(broom)
 library(MASS)
 
 
-fmri_phys_dat <- read.csv("C:/UCHealth/Qualify/takehome_QE_2024/fmri_phys_func.csv")
+fmri_phys_dat <- read.csv("fmri_phys_func.csv")
 
 
 # Function of the proposed method from (g)
